@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "strict": "off", // Disable strict mode rule
+    "no-console": "off" // Disable console log rule
+  }
 }
